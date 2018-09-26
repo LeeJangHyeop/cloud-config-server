@@ -1,6 +1,10 @@
 spring:
   application:
     name: config-server
-  cloud.config.
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/LeeJangHyeop/cloud-config-repository
 server:
   port: 9000
