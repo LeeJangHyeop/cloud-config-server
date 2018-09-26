@@ -8,3 +8,9 @@ spring:
           uri: https://github.com/LeeJangHyeop/cloud-config-repository
 server:
   port: 9000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ['*']
+      base-path: /
